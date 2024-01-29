@@ -7,30 +7,31 @@
     <title>AI Poem Generator</title>
   </head>
   <body>
-    <header>
-      <h1>Welcome</h1>
-    </header>
+    <div class="container">
+      <header>
+        <h1>Welcome</h1>
+      </header>
 
-    <main>
-      <form>
-        <input
-          type="text"
-          placeholder="Enter your poem topic."
-          autofocus
-          required
-          autocomplete="off"
-        />
-        <input type="submit" />
-      </form>
+      <main>
+        <form>
+          <input
+            type="text"
+            placeholder="Enter your poem topic."
+            required
+            autocomplete="off"
+            class="prompt-box"
+          />
+          <input type="submit" class="submit-button" />
+        </form>
 
-      <div>
-        We love our dog with all our hearts,<br />
-        But not so much her stinky farts.<br />
-        Her doggy breath is less than fresh,<br />
-        Yet we hug her nonetheless.
-      </div>
-    </main>
-
+        <div class="poem">
+          We love our dog with all our hearts,<br />
+          But not so much her stinky farts.<br />
+          Her doggy breath is less than fresh,<br />
+          Yet we hug her nonetheless.
+        </div>
+      </main>
+    </div>
     <footer>
       This AI project was coded by
       <a href="https://github.com/demimortimer" target="_blank"
