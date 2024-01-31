@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="src/style.css" />
     <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
     <title>AI Poem Generator</title>
   </head>
   <body>
@@ -21,16 +22,12 @@
             required
             autocomplete="off"
             class="prompt-box"
+            id="user-prompt"
           />
           <input type="submit" class="submit-button" />
         </form>
 
-        <div class="poem" id="poem">
-          We love our dog with all our hearts,<br />
-          But not so much her stinky farts.<br />
-          Her doggy breath is less than fresh,<br />
-          Yet we hug her nonetheless.
-        </div>
+        <div class="poem" id="poem"></div>
       </main>
     </div>
     <footer>

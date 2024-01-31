@@ -77,6 +77,10 @@ footer a:hover {
 .poem {
   margin: 0 20px 20px 20px;
   border-left: 2px solid salmon;
-  padding-left: 30px;
+  padding-left: 20px;
   line-height: 2.5;
+}
+
+.poem i {
+  color: salmon;
 }
