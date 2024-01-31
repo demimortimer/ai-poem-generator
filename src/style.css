@@ -54,6 +54,8 @@ footer a:hover {
   border-radius: 10px;
   width: 80%;
   margin: 5px;
+  font-size: 16px;
+  font-style: italic;
 }
 
 .submit-button {
@@ -63,6 +65,7 @@ footer a:hover {
   border-radius: 10px;
   margin: 5px;
   transition: 0.2s;
+  font-size: 16px;
 }
 
 .submit-button:hover {

@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="src/style.css" />
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <title>AI Poem Generator</title>
   </head>
   <body>
@@ -13,10 +14,10 @@
       </header>
 
       <main>
-        <form>
+        <form id="poem-generator">
           <input
             type="text"
-            placeholder="Enter your poem topic."
+            placeholder="What would you like your poem to be about?"
             required
             autocomplete="off"
             class="prompt-box"
@@ -24,7 +25,7 @@
           <input type="submit" class="submit-button" />
         </form>
 
-        <div class="poem">
+        <div class="poem" id="poem">
           We love our dog with all our hearts,<br />
           But not so much her stinky farts.<br />
           Her doggy breath is less than fresh,<br />
