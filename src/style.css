@@ -99,5 +99,5 @@ footer a:hover {
   }
 }
 .blink {
-  animation: blink 1s step-start 0s infinite;
+  animation: blink 1.5s step-start 0s infinite;
 }
